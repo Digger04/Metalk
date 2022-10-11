@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Metalk</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="gioithieuintro1">Chào mừng bạn đến với mạng xã hội MeTalk</string>
+    <string name="gioithieuintro2">Metalk là một ứng dụng giao lưu kết bạn trò chuyện hoàn toàn miễn phí</string>
+    <string name="gioithieuintro3">Giúp bạn tìm kiếm bạn bè, làm quen những người bạn mới</string>
+    <string name="gioithieuintro4">Dễ dàng kết nối trò chuyện một cách nhanh chóng dễ dàng</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".UI.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Phone"
+        app:prefixText="+84"
+        app:endIconMode="clear_text"
+        app:boxBackgroundMode="outline"
+        app:startIconDrawable="@drawable/ic_baseline_phone_24">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/phone"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Password"
+        app:endIconMode="password_toggle"
+        app:boxBackgroundMode="outline"
+        app:startIconDrawable="@drawable/ic_baseline_lock_person_24">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:id="@+id/password"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5pt"
+        android:gravity="center_horizontal">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhớ tài khoản"
+            android:id="@+id/checkbox_save_acc"/>
+
+        <Button
+            android:id="@+id/button_dangki"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkbox_save_acc"
+            android:layout_marginStart="5pt"
+            android:layout_marginTop="5pt"
+            android:layout_marginEnd="5pt"
+            android:layout_marginBottom="5pt"
+            android:background="@drawable/bgr_button_start"
+            android:text="Đăng kí"
+            android:textColor="@color/white" />
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Đăng nhập"
+            android:background="@drawable/bgr_button_start"
+            android:textColor="@color/white"
+            android:layout_below="@id/checkbox_save_acc"
+            android:layout_toRightOf="@id/button_dangki"
+            android:layout_margin="5pt"
+            android:id="@+id/button_dangnhap"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
