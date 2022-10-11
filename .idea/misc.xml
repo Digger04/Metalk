@@ -4,11 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/APC-LTN/AndroidStudioProjects/Metalk/app/src/main/res/drawable/bgr_circleindi_intro.xml" value="0.16" />
+        <entry key="..\:/Users/APC-LTN/AndroidStudioProjects/Metalk/app/src/main/res/drawable/bgr_dialog_confirmotp.xml" value="0.1655" />
         <entry key="..\:/Users/APC-LTN/AndroidStudioProjects/Metalk/app/src/main/res/drawable/ic_baseline_navigate_next_24.xml" value="0.1" />
         <entry key="..\:/Users/APC-LTN/AndroidStudioProjects/Metalk/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.157" />
         <entry key="..\:/Users/APC-LTN/AndroidStudioProjects/Metalk/app/src/main/res/drawable/ic_next.xml" value="0.157" />
         <entry key="..\:/Users/APC-LTN/AndroidStudioProjects/Metalk/app/src/main/res/drawable/ic_person.xml" value="0.157" />
         <entry key="..\:/Users/APC-LTN/AndroidStudioProjects/Metalk/app/src/main/res/drawable/shape_bgr_button_start.xml" value="0.157" />
+        <entry key="..\:/Users/APC-LTN/AndroidStudioProjects/Metalk/app/src/main/res/layout/activity_dialog_cofirm_otp.xml" value="0.36770833333333336" />
         <entry key="..\:/Users/APC-LTN/AndroidStudioProjects/Metalk/app/src/main/res/layout/activity_intro_screen.xml" value="0.25" />
         <entry key="..\:/Users/APC-LTN/AndroidStudioProjects/Metalk/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/APC-LTN/AndroidStudioProjects/Metalk/app/src/main/res/layout/activity_sigup.xml" value="0.371875" />
